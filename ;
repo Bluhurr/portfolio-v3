@@ -32,26 +32,23 @@ export default function Home() {
           id="landing-page-main-heading"
           className="z-10 relative flex w-full justify-center"
         >
-          <div className="mt-[17.7%] ml-[15%] mr-[2%] flex justify-center">
+          <div className="mt-[19%] ml-[15%] mr-[2%]">
             <span
               id="hero-vert-line"
-              className="absolute w-[6px] h-[80rem] bg-white rounded-lg"
+              className="block w-[6px] h-[50rem] bg-white rounded-lg"
             ></span>
             <span
               id="social-1"
-              className="absolute p-4 bg-white top-[45rem] rounded-full h-[4rem] w-[4rem] flex justify-center items-center"
+              className="absolute p-4 bg-white bottom-[30rem]"
             >
               in
             </span>
-            <span
-              id="social-2"
-              className="absolute p-4 bg-white top-[51rem] rounded-full h-[4rem] w-[4rem] flex justify-center items-center"
-            >
+            <span id="social-2" className="absolute p-4 bg-white bottom-4">
               git
             </span>
             <span id="hero-horiz-line"></span>
           </div>
-          <div className="flex flex-col mr-auto ml-0 mt-[17.2%]">
+          <div className="flex flex-col mr-auto ml-0 mt-[18.2%]">
             <h1
               className={`${abrilFatface.variable} mb-[5%] uppercase text-white lg:leading-[6rem] md:leading-[4.5vw] text-[5vw] leading-[4.5vw] md:text-[5vw] lg:text-[7rem] font-abril`}
             >
